@@ -1,5 +1,5 @@
 ﻿
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public enum BrowserTypes
     {

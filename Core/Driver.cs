@@ -1,15 +1,12 @@
 ﻿
 using System;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
-using System;
 using System.Drawing;
 using System.Windows.Forms;
-using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Support.UI;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public static class Driver
     {

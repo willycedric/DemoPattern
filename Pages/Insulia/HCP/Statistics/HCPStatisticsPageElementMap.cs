@@ -1,7 +1,7 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using OpenQA.Selenium;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class HCPStatisticsPageElementMap:BasePageElementMap
     {

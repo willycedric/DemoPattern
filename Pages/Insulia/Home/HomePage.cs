@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FluentPageObjectPattern.Core;
+using DemoPattern.Core;
 
-namespace FluentPageObjectPattern.Pages.Insulia
+namespace DemoPattern.Pages.Insulia
 {
     class HomePage:BaseFluentPageSingleton<HomePage, HomePageElementMap, HomePageValidator>
     {

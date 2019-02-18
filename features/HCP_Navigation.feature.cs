@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace FluentPageObjectPattern.Features
+namespace DemoPattern.Features
 {
     using TechTalk.SpecFlow;
     
@@ -208,7 +208,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 47
  testRunner.Given("I login as HCP", ((string)(null)), table6, "Given ");
 #line 50
- testRunner.And("I navigate to SettingsPage page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I navigate to SettingPage page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                         "Language",

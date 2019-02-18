@@ -1,11 +1,11 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using OpenQA.Selenium;
 using NUnit.Framework;
 using FluentAssertions;
-using FluentPageObjectPattern.StepHelpers;
+using DemoPattern.StepHelpers;
 using System;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+using DemoPattern.Pages.Insulia.Interface;
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class Preferences_PageValidator:BasePageValidator<Preferences_Page, Preferences_PageElementMap, Preferences_PageValidator>, ISubSectionValidator
     {

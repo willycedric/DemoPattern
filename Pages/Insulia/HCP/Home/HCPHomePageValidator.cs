@@ -1,7 +1,7 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using FluentAssertions;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class HCPHomePageValidator: BasePageValidator<HCPHomePage, HCPHomePageElementMap, HCPHomePageValidator>
     {
@@ -9,7 +9,7 @@ namespace FluentPageObjectPattern.Pages.Insulia.HCP
         {
             WrapValidators(() =>
             {
-                Map.PatientGrid.Displayed.Should().Be(true);
+                Map.PatientGrid.Displayed.Should().BeTrue();
             }, Map.PatientGrid);
             return PageInstance;
         }

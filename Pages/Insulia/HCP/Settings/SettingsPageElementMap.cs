@@ -1,7 +1,7 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using OpenQA.Selenium;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+using DemoPattern.Pages.Insulia.Interface;
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class SettingsPageElementMap:BasePageElementMap
     {

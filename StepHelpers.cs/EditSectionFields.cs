@@ -1,4 +1,4 @@
-﻿namespace FluentPageObjectPattern.StepHelpers
+﻿namespace DemoPattern.StepHelpers
 {
     public class EditSectionFields
     {

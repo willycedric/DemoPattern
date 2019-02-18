@@ -1,8 +1,8 @@
-﻿using FluentPageObjectPattern.StepHelpers;
+﻿using DemoPattern.StepHelpers;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
 
-namespace FluentPageObjectPattern.Steps.HCP
+namespace DemoPattern.Steps.HCP
 {
     [Binding]
     public partial class HCPSteps
@@ -61,12 +61,7 @@ namespace FluentPageObjectPattern.Steps.HCP
                  .EditTargetedSection(table: table, performs: PageDelegate.FillFormEntry)
                  .Save()
                    .Validate()
-                   .IsEditedInfomationsMatch(targetedSubSection: targetedSubSection, table: table, performCheck: PageDelegate.CheckFillEntry);
-                    
-                   
-                   
-                  
-                
+                   .IsEditedInfomationsMatch(targetedSubSection: targetedSubSection, table: table, performCheck: PageDelegate.CheckFillEntry);   
 
     }
 }

@@ -1,9 +1,9 @@
-﻿using FluentPageObjectPattern.Core;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
+﻿using DemoPattern.Core;
+using DemoPattern.Pages.Insulia.Interface;
 
 using System;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class SettingsPage : BaseFluentPageSingleton<SettingsPage, SettingsPageElementMap, SettingsPageValidator>, IHCPSubPage
     {

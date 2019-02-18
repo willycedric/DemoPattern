@@ -2,7 +2,7 @@
 using System;
 using System.Reflection;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public abstract class ThreadSafeNestedContructorsBaseSingleton<T>
     {

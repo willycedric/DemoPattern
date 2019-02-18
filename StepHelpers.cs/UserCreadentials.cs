@@ -1,5 +1,5 @@
 ﻿using System;
-namespace FluentPageObjectPattern.StepHelpers
+namespace DemoPattern.StepHelpers
 {
     class UserCreadentials
     {

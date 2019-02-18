@@ -1,8 +1,8 @@
-﻿using FluentPageObjectPattern.Pages.Insulia.HCP;
+﻿using DemoPattern.Pages.Insulia.HCP;
 using System;
 using TechTalk.SpecFlow;
 using OpenQA.Selenium;
-namespace FluentPageObjectPattern.Pages.Insulia.Interface
+namespace DemoPattern.Pages.Insulia.Interface
 {
      interface IHCPSectionEdition
     {

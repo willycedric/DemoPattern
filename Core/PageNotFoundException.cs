@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     [Serializable]
     internal class PageObjectNotFoundException : Exception

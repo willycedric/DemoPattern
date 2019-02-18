@@ -1,8 +1,8 @@
 ﻿
-using FluentPageObjectPattern.Core;
+using DemoPattern.Core;
 using System;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+using DemoPattern.Pages.Insulia.Interface;
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class HCPHomePage:BaseFluentPageSingleton<HCPHomePage, HCPHomePageElementMap, HCPHomePageValidator>
     {

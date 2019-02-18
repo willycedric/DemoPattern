@@ -2,7 +2,7 @@
 using FluentAssertions;
 using System;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     [TestFixture]
     class SingleTonUnitTest

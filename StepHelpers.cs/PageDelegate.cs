@@ -3,7 +3,7 @@ using OpenQA.Selenium;
 
 using OpenQA.Selenium.Support.UI;
 
-namespace FluentPageObjectPattern.StepHelpers
+namespace DemoPattern.StepHelpers
 {
     public static class PageDelegate
     {

@@ -1,6 +1,6 @@
-﻿using FluentPageObjectPattern.Core;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+﻿using DemoPattern.Core;
+using DemoPattern.Pages.Insulia.Interface;
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class HCPStatisticsPage:BaseFluentPageSingleton<HCPStatisticsPage, HCPStatisticsPageElementMap, HCPStatisticsPageValidator>, IHCPSubPage
     {

@@ -47,7 +47,8 @@ Scenario: HCP Edit His Settings - Profile
 	Given I login as HCP
 	| UserName                | UserPassword |
 	| wonder.hcp1@yopmail.com | vol+2019     |
-	And I navigate to SettingsPage page
+	And I navigate to SettingPage page
 	Then I am able to edit hcp Preferences_Page section informations
 	| Language      | HeighUnit       | WeightUnit |
 	| English (USA) | Feet and inches | Kilograms  |
+	

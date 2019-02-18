@@ -1,14 +1,14 @@
-﻿using FluentPageObjectPattern.Core;
-using FluentPageObjectPattern.Pages.Insulia.Interface;
+﻿using DemoPattern.Core;
+using DemoPattern.Pages.Insulia.Interface;
 using FluentAssertions;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
-using FluentPageObjectPattern.StepHelpers;
+using DemoPattern.StepHelpers;
 using OpenQA.Selenium;
 using System;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class SettingsPageValidator : BasePageValidator<SettingsPage, SettingsPageElementMap, SettingsPageValidator>
     {

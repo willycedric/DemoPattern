@@ -1,11 +1,11 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 using TechTalk.SpecFlow.Assist;
-using FluentPageObjectPattern.StepHelpers;
+using DemoPattern.StepHelpers;
 using OpenQA.Selenium.Support;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class Preferences_PageElementMap: BasePageElementMap
     {

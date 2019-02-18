@@ -4,7 +4,7 @@
 using OpenQA.Selenium;
 using System;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public class BasePageValidator<TS, TM, TV>
         where TS : BaseFluentPageSingleton<TS, TM, TV>

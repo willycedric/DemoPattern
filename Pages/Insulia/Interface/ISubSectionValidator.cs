@@ -1,10 +1,10 @@
-﻿using FluentPageObjectPattern.Core;
-using FluentPageObjectPattern.Pages.Insulia.HCP;
+﻿using DemoPattern.Core;
+using DemoPattern.Pages.Insulia.HCP;
 using OpenQA.Selenium;
-using FluentPageObjectPattern.StepHelpers;
+using DemoPattern.StepHelpers;
 using System;
 
-namespace FluentPageObjectPattern.Pages.Insulia.Interface
+namespace DemoPattern.Pages.Insulia.Interface
 {
     interface ISubSectionValidator
     {

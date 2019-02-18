@@ -1,7 +1,7 @@
-﻿using FluentPageObjectPattern.Core;
+﻿using DemoPattern.Core;
 using FluentAssertions;
 
-namespace FluentPageObjectPattern.Pages.Insulia.HCP
+namespace DemoPattern.Pages.Insulia.HCP
 {
     class NotificationsPageValidator:BasePageValidator<NotificationsPage, NotificationsPageElementMap, NotificationsPageValidator>
     {

@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public class BasePageElementMap
     {

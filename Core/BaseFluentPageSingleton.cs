@@ -3,7 +3,7 @@ using OpenQA.Selenium;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-namespace FluentPageObjectPattern.Core
+namespace DemoPattern.Core
 {
     public abstract class BaseFluentPageSingleton<TS, TM> : ThreadSafeNestedContructorsBaseSingleton<TS>
         where TM : BasePageElementMap, new()

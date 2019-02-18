@@ -1,9 +1,9 @@
 ﻿using System;
 using TechTalk.SpecFlow;
 using NLog;
-using FluentPageObjectPattern.Core;
+using DemoPattern.Core;
 
-namespace FluentPageObjectPattern.StepHelpers
+namespace DemoPattern.StepHelpers
 {
     [Binding]
     class Hook_Helpers

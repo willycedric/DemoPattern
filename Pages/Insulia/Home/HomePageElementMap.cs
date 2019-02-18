@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
-using FluentPageObjectPattern.Core;
-namespace FluentPageObjectPattern.Pages.Insulia
+using DemoPattern.Core;
+namespace DemoPattern.Pages.Insulia
 {
     class HomePageElementMap:BasePageElementMap
     {

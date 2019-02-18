@@ -1,4 +1,4 @@
-﻿namespace FluentPageObjectPattern.Pages.Insulia.Interface
+﻿namespace DemoPattern.Pages.Insulia.Interface
 {
     interface IHCPSubPage
     {
